@@ -3,7 +3,7 @@ package com.seminolestate.springdiassignment.Services;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Service("teamService")
+@Service
 @Profile({"devService", "default"})
 public class DevService implements PrimeService {
 
